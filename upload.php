@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
 
     $destination = 'storage/' . $filename;
 
-    $path = 'http://localhost:8888/flutterAPI/'.$destination;
+    $path = '/flutterAPI/'.$destination;
 
     $extension = pathinfo($filename, PATHINFO_EXTENSION);
 
